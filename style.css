@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+    background: white;
+    margin: 20px 0; /* Consistent margin for all sections */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.contact-info, .skills, .experience, .education {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info li, .skills li, .experience li, .education li {
+    margin: 10px 0;
+}
+
+.contact-info li, .skills li, .experience p, .education p {
+    margin: 10px 0;
+}
+
+.experience .job-title, .education .degree {
+    font-weight: bold;
+}
+
+.skills li {
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.contact-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contact-button a {
+    text-decoration: none;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact-button a:hover {
+    background-color: #555;
+}
